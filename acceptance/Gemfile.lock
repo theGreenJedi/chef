@@ -1,6 +1,6 @@
 GIT
-  remote: git://github.com/chef/chef-acceptance.git
-  revision: e92ddae46d2126864698b9c8e4fc4ec2dcc46c55
+  remote: https://github.com/chef/chef-acceptance.git
+  revision: 3877c344098021ac66134e8edb5eb805d14d4643
   specs:
     chef-acceptance (0.2.0)
       mixlib-shellout (~> 2.0)
@@ -87,10 +87,8 @@ GEM
       rubyzip (~> 1.1)
       thor (~> 0.19)
       train (~> 0.13)
-    jmespath (1.2.4)
-      json_pure (>= 1.8.1)
+    jmespath (1.6.1)
     json (1.8.3)
-    json_pure (1.8.3)
     kitchen-ec2 (1.0.0)
       aws-sdk (~> 2)
       excon
